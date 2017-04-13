@@ -1,3 +1,4 @@
+<!--
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,6 +6,8 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/estilos.css">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/mobile.css" media="(max-width: 939px)">
     </head>
 
 <body>
@@ -21,6 +24,10 @@
             </ul>
         </nav>
     </header>
+    -->
+    <?php 
+    $cabecalho_title = "Mirror Fashion";
+    include("cabecalho.php"); ?>
     <div class="container destaque">
             <section class="busca">
                 <h2>Busca</h2>
@@ -166,9 +173,7 @@
             </section> <!-- fim do painel mais-vendidos-->
         </div>
     </section>
-    <section id="destaques">
-        destaques
-    </section>
+    <!--
     <footer>
 
         <div class="container">
@@ -180,7 +185,8 @@
         </ul>
         </div>
     </footer>
-
+-->
+<?php include("rodape.php") ?>
 </body>
 
 </html>

@@ -1,45 +1,5 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/sobre.css">
-        <title>Sobre a Mirror Fashion</title>
-        <style>
-            h1 {
-                padding: 10px;
-            }
-            h2{
-                margin-top: 30px;
-            }
-            p {
-                padding: 0 45px;
-                text-indent: 15px;
-            }
-            figure{
-                padding: 15px;
-                margin: 30px;
-                
-            }
-            figcaption{
-                margin-top: 10px;
-                text-align: center;
-            }
-          
-            #centro-distribuicao {
-                margin-left: auto;
-                margin-right: auto;
-                width: 550px;
-                background-color: #AAA;
-            }
-            #familia-pelho {
-                float: right;
-                margin: 0 0 10px 10px;
-                background-color: #AAA;
-            }
-        </style>
-    </head>
-   
+<?php include("cabecalho.php") ?>
+<!--   
     <body>
         <header class="container">
         <h1><img src="img/logo.png" alt="Mirror Fashion"></h1>
@@ -54,11 +14,11 @@
             </ul>
         </nav>
     </header>
-       
+    -->   
     <div class="container">    
         <h1>A Mirror Fashion</h1>
         <p>A Mirror Fashion é a maior empresa comércio eletrônico no segmento de moda em todo o mundo. 
-Fundada em 1932, possui filiais em 124 países, sendo líder de mercado com mais de 90% de 
+Fundada há <?php print date("Y")-1932; ?> anos, possui filiais em 124 países, sendo líder de mercado com mais de 90% de 
 participação em 118 deles.</p>
 
 <p>Nosso centro de distribuição fica em <a href="https://maps.google.com.br/?q=Jacarezinho">Jacarezinho</a>, no Paraná. De lá, saem 48 aviões que 
@@ -106,6 +66,8 @@ Fashion, além de presidentes da União Européia, Ásia e o secretário-geral d
         <li>Mais de um milhão de funcionários em todo o mundo</li>
     </div>
     </ul>
+    <?php include("rodape.php") ?>
+    <!--
         <footer>
         <div class="container">
         <img src="img/logo-rodape.png" alt="Logo Mirror Fashion">
@@ -115,7 +77,7 @@ Fashion, além de presidentes da União Européia, Ásia e o secretário-geral d
             <li> <a href="http://plus.google.com/mirrorfashion"></a></li>
         </ul>
         </div>
-    </footer>
+    </footer>-->
 
     
 
